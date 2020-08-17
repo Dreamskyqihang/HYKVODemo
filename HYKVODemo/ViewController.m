@@ -27,6 +27,8 @@
     [p HY_addObserver:self forKeyPath:@"name" options:NSKeyValueObservingOptionNew context:nil];
     
     _person = p;
+
+    /// 测试  git commit 测试
 }
 
 - (void)observeValueForKeyPath:(NSString *)keyPath ofObject:(id)object change:(NSDictionary<NSKeyValueChangeKey,id> *)change context:(void *)context
