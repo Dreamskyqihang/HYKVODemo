@@ -32,6 +32,8 @@
 
 
     /// 测试  git commit 测试2
+
+    /// 测试  git commit 换行测试
 }
 
 - (void)observeValueForKeyPath:(NSString *)keyPath ofObject:(id)object change:(NSDictionary<NSKeyValueChangeKey,id> *)change context:(void *)context
