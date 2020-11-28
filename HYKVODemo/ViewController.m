@@ -28,16 +28,6 @@
     
     _person = p;
 
-    /// 测试  git commit 测试
-
-
-    /// 测试  git commit 测试2
-
-
-    /// rebase测试
-
-    /// rebase测试2
-
 }
 
 - (void)observeValueForKeyPath:(NSString *)keyPath ofObject:(id)object change:(NSDictionary<NSKeyValueChangeKey,id> *)change context:(void *)context
