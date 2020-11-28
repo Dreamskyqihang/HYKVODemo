@@ -1,11 +1,11 @@
-# HYKVODemo
-# A Demo for realize KVO by myself！
-# 这是一个利用Runtime来实现KVO的Demo!
+## HYKVODemo
+>  A Demo for realize KVO by myself！
+> 这是一个利用Runtime来实现KVO的Demo!
 
-# KVO
+### KVO
 * 原理：KVO是监听对象的set方法，创建一个对象的子类，将对象指向改子类，然后重写要监听的对象的set方法，通过监听此方法的变动，去监听对象的值的变动！
 
-# 实现KVO
+### 实现KVO
 * 1 动态创建一个被监听对象的子类
     * 1.1 动态取得要创建的子类的类名，根据被监听的对象，通过某种操作生成新的子类名字
     * 1.2 根据1.1生成的类的名字创建一个子类
